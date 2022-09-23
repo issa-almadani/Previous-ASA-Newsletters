@@ -2,7 +2,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 <style>
-    a {
+    .links {
         text-decoration: none;
         color: #FEF6EB;
     }
@@ -11,9 +11,10 @@
         font-family: 'Garamond';
     }
 
-    .text {
+    .newsletter-text {
         margin-left: 10%;
         margin-right: 10%;
+        font-size: 12pt;
     }
 
     td {
@@ -48,6 +49,26 @@
         width: 25%;
     }
 
+    .header-image {
+        width: 300px;
+        max-height: 100px;
+        object-fit:cover;
+        margin-bottom: 45px;
+    }
+
+    .asa-image {
+        width: 300px;
+        margin-bottom: 45px;
+    }
+
+    .newsletter-footer {
+        background-color: black;
+        color: white;
+        font-size: 6pt;
+        padding: 10px;
+        margin: 0px;
+    }
+
 </style>
 
 <table style="text-align: center; border: 3px solid #620D12; margin-left: auto; margin-right: auto;" width="600px">
@@ -61,7 +82,7 @@
         </tr>
         <tr>
             <td>
-                <img src="~/data/images/thumbnail_ASA logo.jpg" width="300px"><br /><br />
+                <img class="asa-image" src="~/data/images/thumbnail_ASA logo.jpg" />
                 <p style="color: #620D12; font-size: 24pt;"> FALL QUARTER NEWSLETTER </p>
                 <p style="color: #620D12; font-size: 24pt;"><i> Back To School Edition! </i></p>
             </td>
@@ -76,9 +97,18 @@
 
         <tr>
             <td>
-                <p style="font-size: 20pt;" class="text"><i>Student Activities and Resource Fair (SARF)!</i></p>
-                <p style="font-size: 12pt;" class="text">
-                    Join us Friday of first week (9/30) on the quad at 3:00-5:30PM 
+                <p style="font-size: 20pt;" class="newsletter-text"><i>Student Activities and Resource Fair (SARF)!</i></p>
+                <p class="newsletter-text">
+                    Join us Friday of first week (9/30) on the quad at 3:00-5:30PM
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p style="font-size: 20pt;" class="newsletter-text"><i>Meet n' Greet!</i></p>
+                <p class="newsletter-text">
+                    Join us 2nd week!
                 </p>
             </td>
         </tr>
@@ -89,10 +119,55 @@
             </td>
         </tr>
 
+        <tr>
+            <td>
+                <p style="font-size: 20pt;" class="newsletter-text"><i>All of Us Research Program</i></p><br />
+                <p class="newsletter-text">
+                    The University of Chicago's Institute for Population and Precision Health is looking for research
+                    participants for the <i>All of Us</i> Research Program - "a longitudional, population based research
+                    project funded by the National Institute of Health". The goal of the project is to gather health
+                    data from individuals not commonly represented in other resaerch studies, with the aim of producing
+                    a comprehensible and diverse database pertaining to various peoples and diseases.
+                    <br /><br />
+                    Participants will receive <span style="font-weight: bold;"> compensation </span> of
+                    <span style="font-weight: bold;"> $25 </span> and can receive further compensation by also participating
+                    in the "University of Chicago's population-based reasearch program, COMPASS".
+                    <br /><br />
+                    Please contact researcher Victoria Hwang at victoriah@bsd.uchicago.edu or via phone at 773-795-4767
+                    for more information about this opportunity!
+                </p>
+            </td>
+        </tr>
 
         <tr>
             <td>
-                <p><div class="header">Get Involved -  </div></p>
+                <p><div class="header">Get Involved - شارك معنا </div></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img class="header-image" src="~/data/images/buildpalestine.png" />
+                <p style="font-size: 20pt;" class="newsletter-text"><i>Summit 2022 - Build Palestine</i></p>
+                <p class="newsletter-text">
+                    BuildPalestine’s Social Innovation Summit is an annual virtual global gathering of dreamers and doers, coming together to imagine,  build, and celebrate.
+                </p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <img class="header-image" src="~/data/images/loc.jpeg" />
+                <p style="font-size: 20pt;" class="newsletter-text"><i>Leader's of Color - Institute of Politics</i></p>
+                <p class="newsletter-text">
+                    The LoC is an organization at UChicago's IOP that prepares students of color for leadership positions
+                    and careers through leadership development, community building, mentorship, site visits, and various
+                    other activities. They are one of the largest networks of students of color at UChicago, and have
+                    reached out to the ASA, hoping to expand their representation to encompass more comminuties. Applications are
+                    due by the end of the fall quarter, and we will be providing further information in upcoming
+                    newsletters as the deadline grows nearer.
+                </p>
             </td>
         </tr>
 
@@ -107,11 +182,47 @@
                 <p><div class="header">Where Can You Find Us? - للتّواصل</div></p>
             </td>
         </tr>
+
         <tr>
             <td>
-                <a href="https://www.facebook.com/UofCASA/"><img src="~/data/images/facebook-logo.png" width="4.5%"></a>
-                &nbsp <a href="https://www.instagram.com/arabatuchicago/"><img src="~/data/images/insta-logo.png" width="5%"></a>
+                <a class="links" href="https://www.facebook.com/UofCASA/"><img src="~/data/images/facebook-logo.png" width="4.5%"></a>
+                &nbsp <a class="links" href="https://www.instagram.com/arabatuchicago/"><img src="~/data/images/insta-logo.png" width="5%"></a>
 
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p class="newsletter-text">
+                    President: Jenna Nimer - jnimer1@uchicago.edu<br />
+                    Vice President: Aya Hamza - ayahamza@uchicago.edu<br />
+                    Administrative Coordinator: Issa Almadani - ialmadani@uchicago.edu
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p style="color: #FEF6EB; font-size: 12pt; padding: 15px;">
+                    <span style="background-color: #620D12; padding-left: 10%; padding-right: 10%; padding-top: 20px; padding-bottom: 20px; border-radius: 7px;">
+                        <a class ="links" href="https://forms.gle/grq9jCiy6GU1TECS6">General Survey</a>
+                    </span>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="newsletter-footer">
+                    <p>
+                        Designed by Issa Almadani&#8482; <br />
+                        Product of the Arab Student Association - ASA. <br />
+                        You are receiving this email because you signed up for
+                        our newsletter. <br />
+                        Unfortunately we're not going to remove you from the listhost. <br />
+                        Come on we don't really send it out that often.
+                    </p>
+                </div>
             </td>
         </tr>
 
